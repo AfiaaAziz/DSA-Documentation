@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Structures and Algorithms (DSA) Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>Data Structures and Algorithms (DSA) Documentation</h1>
+            <p class="subtitle">Your gateway to mastering DSA</p>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="container">
+            <header>Navigation</header>
+            <ul>
+                <li><a class="nav-link" href="#Introduction_to_DSA">Introduction to DSA</a></li>
+                <li><a class="nav-link" href="#Objectives">Objectives</a></li>
+                <li><a class="nav-link" href="#Basic_Concepts">Basic Concepts</a></li>
+                <li><a class="nav-link" href="#Data_Structures">Data Structures</a></li>
+                <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-doc">
+        <section id="Introduction_to_DSA" class="main-section">
+            <header>Introduction to DSA</header>
+            <p>Data Structures and Algorithms (DSA) are fundamental concepts in computer science that help in solving
+                complex problems efficiently. Understanding DSA is crucial for writing optimized code and enhancing
+                problem-solving skills.</p>
+            <p>Additional paragraph content.</p>
+        </section>
+
+        <section id="Objectives" class="main-section">
+            <header>Objectives</header>
+            <ul>
+                <li>Understand basic and advanced data structures and algorithms.</li>
+                <li>Learn to analyze the time and space complexity of algorithms.</li>
+                <li>Develop the ability to solve problems using appropriate data structures and algorithms.</li>
+            </ul>
+            <p>Another paragraph here.</p>
+        </section>
+
+        <section id="Basic_Concepts" class="main-section">
+            <header>Basic Concepts</header>
+            <section id="Complexity_Analysis">
+                <header>Complexity Analysis</header>
+                <ul>
+                    <li><strong>Big O Notation:</strong> Describes the upper limit of the time or space complexity of an
+                        algorithm.</li>
+                    <li><strong>Time Complexity:</strong> Measures how the runtime of an algorithm changes with the
+                        input
+                        size.</li>
+                    <li><strong>Space Complexity:</strong> Measures the amount of memory an algorithm uses relative to
+                        the
+                        input size.</li>
+                </ul>
+                    <p>Complexity analysis is important because it helps determine the efficiency of an algorithm in terms of time and space. By understanding the complexity, we can predict how an algorithm will perform as the input size grows and choose the most suitable one for a given problem.</p>
+
+            </section>
+            <section id="Recursion">
+                <header>Recursion</header>
+                <ul>
+                    <li><strong>Definition:</strong> A function that calls itself to solve a smaller instance of the same problem.</li>
+                    <li><strong>Examples:</strong> Factorial, Fibonacci sequence.</li>
+                    <li><strong>Pros and Cons:</strong> Simplifies code but can lead to high memory usage due to the
+                        call
+                        stack.</li>
+                </ul>
+    <p>Recursion is a powerful tool in programming, allowing complex problems to be broken down into simpler subproblems. However, it is important to ensure that the base case is reached to avoid infinite recursion and potential stack overflow issues.</p>
+            </section>
+        </section>
+
+        <section id="Data_Structures" class="main-section">
+            <header>Data Structures</header>
+            <section id="Arrays_and_Strings">
+                <header>Arrays and Strings</header>
+                <section id="Arrays">
+                    <header>Arrays</header>
+                    <ul>
+                        <li><strong>Definition:</strong> A collection of elements stored at contiguous memory locations.
+                        </li>
+                        <li><strong>Operations:</strong> Access, insertion, deletion.</li>
+                        <li><strong>Example:</strong> <code>int arr[] = {1, 2, 3, 4};</code></li>
+                        <li><strong>Applications:</strong> Used in various algorithms and applications.</li>
+                    </ul>
+    <p>Arrays provide a simple and efficient way to store and access a collection of data. They are widely used in programming due to their ability to provide constant-time access to elements and are fundamental in implementing other data structures and algorithms.</p>
+                </section>
+                <section id="Strings">
+                    <header>Strings</header>
+                    <ul>
+                        <li><strong>Definition:</strong> An array of characters.</li>
+                        <li><strong>Operations:</strong> Access, concatenation, substring.</li>
+                        <li><strong>Example:</strong> <code>string str = "hello";</code></li>
+                    </ul>
+    <p>Strings are essential in programming for handling text data. They offer various operations such as searching, slicing, and modification, making them versatile for tasks ranging from simple data storage to complex text processing.</p>
+                </section>
+            </section>
+            <section id="Linked_Lists">
+                <header>Linked Lists</header>
+                <section id="Singly_Linked_Lists">
+                    <header>Singly Linked Lists</header>
+                    <ul>
+                        <li><strong>Definition:</strong> A linear collection of nodes where each node points to the next
+                            node.</li>
+                        <li><strong>Operations:</strong> Insertion, deletion, traversal.</li>
+                        <li><strong>Example:</strong>
+                            <pre><code>struct Node {
+    int data;
+    Node* next;
+};</code></pre>
+                        </li>
+                    </ul>
+                       <p>Singly linked lists are useful for their dynamic size and ease of insertion and deletion. Unlike arrays, they do not require contiguous memory and can grow or shrink as needed, making them ideal for applications with unpredictable memory requirements.</p>
+
+                </section>
+                <section id="Doubly_Linked_Lists">
+                    <header>Doubly Linked Lists</header>
+                    <ul>
+                        <li><strong>Definition:</strong> A linear collection of nodes where each node points to both the
+                            next and previous nodes.</li>
+                        <li><strong>Operations:</strong> Insertion, deletion, traversal.</li>
+                        <li><strong>Example:</strong>
+                            <pre><code>struct Node {
+    int data;
+    Node* next;
+    Node* prev;
+};</code></pre>
+                        </li>
+                    </ul>
+                        <p>Doubly linked lists provide greater flexibility compared to singly linked lists, as they allow traversal in both directions. This bidirectional capability makes operations like deletion more efficient, though it comes at the cost of additional memory for storing the extra pointers.</p>
+
+                </section>
+            </section>
+            <section id="Stacks_and_Queues">
+                <header>Stacks and Queues</header>
+                <section id="Stacks">
+                    <header>Stacks</header>
+                    <ul>
+                        <li><strong>Definition:</strong> A linear data structure following Last In First Out (LIFO)
+                            principle.</li>
+                        <li><strong>Operations:</strong> Push, pop, peek.</li>
+                        <li><strong>Example:</strong> <code>stack&lt;int&gt; s;</code></li>
+                        <li><strong>Applications:</strong> Function call management, expression evaluation.</li>
+                    </ul>
+                       <p>Stacks are fundamental in computer science for managing function calls and evaluating expressions. They ensure that the most recently added item is the first to be removed, making them efficient for tasks that involve nested operations or reversing sequences.</p>
+
+                </section>
+                <section id="Queues">
+                    <header>Queues</header>
+                    <ul>
+                        <li><strong>Definition:</strong> A linear data structure following First In First Out (FIFO)
+                            principle.</li>
+                        <li><strong>Operations:</strong> Enqueue, dequeue, front.</li>
+                        <li><strong>Example:</strong> <code>queue&lt;int&gt; q;</code></li>
+                        <li><strong>Applications:</strong> Task scheduling, buffering.</li>
+                    </ul>
+                       <p>Queues are essential for managing tasks that follow a first-come, first-served basis, such as task scheduling and buffering. They ensure that items are processed in the order they were added, making them useful in scenarios where fairness and order are critical.</p>
+
+                </section>
+            </section>
+            <section id="Trees">
+                <header>Trees</header>
+                <section id="Binary_Trees">
+                    <header>Binary Trees</header>
+                    <ul>
+                        <li><strong>Definition:</strong> A tree data structure where each node has at most two children.
+                        </li>
+                        <li><strong>Traversal:</strong> In-order, pre-order, post-order.</li>
+                        <li><strong>Example:</strong>
+                            <pre><code>struct Node {
+    int data;
+    Node* left;
+    Node* right;
+};</code></pre>
+                        </li>
+                    </ul>
+                        <p>Binary trees are versatile data structures used for hierarchical data representation and efficient searching. They support various traversal methods to explore nodes in different orders, making them suitable for tasks like sorting, searching, and representing hierarchical relationships in data.</p>
+
+                </section>
+                <section id="Binary_Search_Trees">
+                    <header>Binary Search Trees (BST)</header>
+                    <ul>
+                        <li><strong>Definition:</strong> A binary tree where each node follows the property: left child
+                            &lt; node &lt; right child.</li>
+                        <li><strong>Operations:</strong> Insertion, deletion, search.</li>
+                        <li><strong>Example:</strong>
+                            <pre><code>Node* insert(Node* root, int key) {
+    if (!root) return new Node(key);
+    if (key &lt; root->data) root->left = insert(root->left, key);
+    else root->right = insert(root->right, key);
+    return root;
+}</code></pre>
+                        </li>
+                    </ul>
+                        <p>Binary search trees provide an efficient way to store and retrieve data in sorted order. They facilitate quick insertion, deletion, and searching operations due to their ordered structure, making them suitable for applications like database indexing and efficient data retrieval.</p>
+
+                </section>
+                <section id="Heaps">
+                    <header>Heaps</header>
+                    <ul>
+                        <li><strong>Min Heap:</strong> A complete binary tree where each node is smaller than its
+                            children.</li>
+                        <li><strong>Operations:</strong> Insertion, deletion, heapify.</li>
+                        <li><strong>Example:</strong>
+                            <pre><code>void heapify(int arr[], int n, int i) {
+    int smallest = i;
+    int l = 2*i + 1;
+    int r = 2*i + 2;
+    if (l &lt; n && arr[l] &lt; arr[smallest]) smallest = l;
+    if (r &lt; n && arr[r] &lt; arr[smallest]) smallest = r;
+    if (smallest != i) {
+        swap(arr[i], arr[smallest]);
+        heapify(arr, n, smallest);
+    }
+}</code></pre>
+                        </li>
+                    </ul>
+                       <p>Heaps are specialized binary trees that satisfy the heap property, where the root is either the maximum or minimum element in the tree. They are used primarily for implementing priority queues and heap sort algorithms due to their efficient insertion and deletion operations.</p>
+
+                </section>
+            </section>
+            <section id="Graphs">
+                <header>Graphs</header>
+                <section id="Graph_Representation">
+                    <header>Representation</header>
+                    <ul>
+                        <li><strong>Adjacency Matrix:</strong> A 2D array where the cell at (i, j) indicates an edge
+                            from
+                            vertex i to vertex j.</li>
+                        <li><strong>Adjacency List:</strong> A collection of linked lists or arrays to represent edges.
+                        </li>
+                    </ul>
+    <p>Graphs can be represented in two primary ways: using an adjacency matrix, which provides a straightforward way to determine connectivity between vertices but can be memory-intensive for large graphs; and using adjacency lists, which efficiently store graphs with fewer edges and are typically more memory-efficient than adjacency matrices.</p>
+                </section>
+                <section id="Traversal">
+                    <header>Traversal</header>
+                    <ul>
+                        <li><strong>Breadth-First Search (BFS):</strong> Explores vertices in layers away from the
+                            starting vertex.</li>
+                        <li><strong>Depth-First Search (DFS):</strong> Explores as far as possible along each branch
+                            before backtracking.</li>
+                    </ul>
+                        <p>Graph traversal algorithms like BFS and DFS are essential for exploring and analyzing graphs. BFS visits vertices layer by layer, making it suitable for finding the shortest path in unweighted graphs and discovering all reachable vertices. DFS, on the other hand, explores as deeply as possible along each branch before backtracking, making it useful for topological sorting and detecting cycles in graphs.</p>
+
+                </section>
+            </section>
+        </section>
+
+        <section id="Conclusion" class="main-section">
+            <header>Conclusion</header>
+            <p>Understanding Data Structures and Algorithms is crucial for every programmer...</p>
+               <p> Mastering DSA opens doors to solving a wide range of computational challenges effectively, empowering you to build robust applications and contribute meaningfully to the field of computer science.</p>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Created by Afia Aziz &mdash; 6-July-2024</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
